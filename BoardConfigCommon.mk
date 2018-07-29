@@ -90,6 +90,7 @@ DONT_DEXPREOPT_PREBUILTS := true
 
 # Display
 TARGET_USES_HWC2 := true
+TARGET_USES_GRALLOC1 := true
 
 # Lineage Hardware
 BOARD_HARDWARE_CLASS += \
