@@ -39,6 +39,9 @@ on boot
 
 on charger
     write /sys/class/backlight/panel0-backlight/brightness 150
+	
+on property:ro.liquid.device=*
+    setprop qemu.hw.mainkeys 0  
 
 service dashd /sbin/dashd
     class core
