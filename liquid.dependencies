@@ -9,6 +9,7 @@
   },
   {
     "repository": "proprietary_vendor_oneplus",
-    "target_path": "vendor/oneplus"
+    "target_path": "vendor/oneplus",
+    "branch": "op6"
   }
 ]
